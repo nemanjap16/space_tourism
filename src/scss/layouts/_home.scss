@@ -1,0 +1,11 @@
+// utilities
+@use '../utilities/index' as *;
+
+// components
+@use '../components/button';
+
+body {
+  background-color: var(--bg-color);
+  font-family: $main-font;
+  @include content-center;
+}

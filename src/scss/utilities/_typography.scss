@@ -1,0 +1,12 @@
+@use './variables' as var;
+@use './functions';
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+$main-font: 'Architects Daughter', cursive;
+
+h1 {
+  color: var.$text;
+  font-weight: functions.font-weight(regular);
+  font-size: functions.font-size(larger);
+}
